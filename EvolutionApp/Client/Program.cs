@@ -6,7 +6,7 @@ namespace EvolutionApp
 	{
 		static void Main(string[] args)
 		{
-			int row = 5, column = 5;
+			const int row = 5, column = 5;
 			var life = new EvolutionSimulation().CreateWorld(row, column);
 			var predator1 = new Predator();
 			var predator2 = new Predator();
